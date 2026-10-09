@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sirinneon.com.tr/sitemap.xml
