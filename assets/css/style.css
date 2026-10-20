@@ -110,9 +110,10 @@ p { margin: 0; }
   aspect-ratio: 4 / 3; display: grid; place-items: center; padding: 12%;
   background:
     radial-gradient(120% 90% at 50% 40%, var(--gece-2), var(--gece) 70%);
-  border-radius: var(--r-lg);
+  border-radius: var(--r-lg); position: relative; overflow: hidden;
 }
 .wall-lg { aspect-ratio: 1 / 1; }
+.wall .wall-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 
 /* ---------- hero */
 .hero { background: var(--gece); color: #f4f0f6; overflow: hidden; }
